@@ -27,7 +27,7 @@ WHERE filename LIKE 'yellow_tripdata_2021-03.csv';
 
 ### 6. How would you configure the timezone to New York in a Schedule trigger?
 
-`````bash
+````bash
 triggers:
   - id: yellow_schedule
     type: io.kestra.plugin.core.trigger.Schedule
